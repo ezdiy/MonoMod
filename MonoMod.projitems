@@ -9,10 +9,12 @@
     <Import_RootNamespace>MonoMod</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)MonoMod\" />
     <Folder Include="$(MSBuildThisFileDirectory)MonoMod.BaseLoader\" />
-    <Folder Include="$(MSBuildThisFileDirectory)MonoMod.Utils\" />
-    <Folder Include="$(MSBuildThisFileDirectory)MonoMon.RuntimeDetour\" />
+    <Folder Include="$(MSBuildThisFileDirectory)MonoMod.RuntimeDetour\Detour\" />
+    <Folder Include="$(MSBuildThisFileDirectory)MonoMod.RuntimeDetour\ILCopying\" />
+    <Folder Include="$(MSBuildThisFileDirectory)MonoMod.Utils\ModInterop\" />
+    <Folder Include="$(MSBuildThisFileDirectory)MonoMod\InlineRT\" />
+    <Folder Include="$(MSBuildThisFileDirectory)MonoMod\Modifiers\" />
     <Folder Include="$(MSBuildThisFileDirectory)MonoMod.RuntimeDetour.HookGen\" />
     <Folder Include="$(MSBuildThisFileDirectory)MonoMod.UnitTest\" />
     <Folder Include="$(MSBuildThisFileDirectory)MonoMod.DebugIL\" />
